@@ -2,7 +2,7 @@
     "name": "@doenet/assignment-viewer",
     "private": false,
     "description": "View assignments from questions written in DoenetML",
-    "version": "0.1.0-alpha-16",
+    "version": "0.1.0-alpha-17",
     "license": "AGPL-3.0-or-later",
     "homepage": "https://github.com/Doenet/assignment-viewer#readme",
     "type": "module",
@@ -38,7 +38,7 @@
         "prettier:check": "prettier --check ."
     },
     "peerDependencies": {
-        "@doenet/doenetml-iframe": "^0.7.21",
+        "@doenet/doenetml-iframe": "^0.7.24",
         "react": "^19.2.3",
         "react-dom": "^19.2.3"
     },
@@ -49,7 +49,7 @@
         "seedrandom": "^3.0.5"
     },
     "devDependencies": {
-        "@doenet/doenetml-iframe": "0.7.21",
+        "@doenet/doenetml-iframe": "0.7.24",
         "@eslint/js": "^9.39.1",
         "@types/object-hash": "^3.0.6",
         "@types/react": "^19.2.7",

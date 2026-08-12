@@ -15,10 +15,10 @@ function mkDoc(id: string, label: string): SingleDocSource {
         type: "singleDoc",
         isDescription: false,
         doenetML: `<p>${label}: <textInput name="ti" /></p><p>typed: $ti.value</p>`,
-        // 0.7.21 is the first version the iframe wrapper gates parking on
-        // (PARK_MIN_VERSION), so parking works without a host-specified
-        // standaloneUrl — the bundle/CSS auto-resolve from this version.
-        version: "0.7.21",
+        // At or above PARK_MIN_VERSION (0.7.21) the iframe wrapper gates
+        // parking on the doc version, so parking works without a
+        // host-specified standaloneUrl — the bundle/CSS auto-resolve.
+        version: "0.7.24",
         numVariants: 1,
     };
 }
